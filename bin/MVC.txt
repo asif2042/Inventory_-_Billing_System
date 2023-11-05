@@ -1,0 +1,24 @@
+Mode View Controller
+
+
+
+VinylCDShop/
+|-- src/
+|   |-- main/
+|   |   |-- java/
+|   |   |   |-- model/                 <-- Backend: Represents the Data and Business Logic
+|   |   |   |   |-- Product.java
+|   |   |   |   |-- StockableProduct.java
+|   |   |   |   |-- Game.java
+|   |   |   |   |-- Music.java
+|   |   |   |   |-- Movie.java
+|   |   |   |   |-- Inventory.java
+|   |   |   |-- controller/            <-- Backend: Intermediary between View & Model
+|   |   |   |   |-- ShopController.java
+|   |   |   |   |-- BillingController.java
+|   |   |   |   |-- DiscountController.java
+|   |   |   |-- view/                 <-- Frontend: The GUI
+|   |   |   |   |-- MainFrame.java
+|   |   |   |   |-- ProductPanel.java
+|   |   |   |   |-- CartPanel.java
+|   |   |   |   |-- InvoicePanel.java
